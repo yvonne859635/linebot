@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: line-bot
+    env: python
+    buildCommand: ""
+    startCommand: "gunicorn app:app"
+    envVars:
+      - key: LINE_CHANNEL_SECRET
+        value: ce7864dc81baa6d621aad365eaf6f572
+      - key: LINE_CHANNEL_ACCESS_TOKEN
+        value: zUgCL208qnIpCZtNDj0bS3rmJlV/gTdEjL2LNIp1T1BjGdsfl+oawWZ08EpvI5q6LKTRu3g//moVsbVPt/mHTtpxit6wU7rMPrw6FjnN/ftpOesfVhSK29vtm/eshgjCBg7RW/V3T54hmiNJAWHmGwdB04t89/1O/w1cDnyilFU=
